@@ -1,0 +1,21 @@
+body {
+    margin: 0; /* Sin margen */
+    min-height: 100vh; /* Ocupa toda la pantalla */
+    display: grid; /* Usamos grid */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color: rgb(26,34,32); /* Fondo oscuro */
+}
+
+.reloj {
+    border: 1rem solid rgb(214, 71, 130); /* Borde grueso rosa */
+    width: 320px; /* Ancho del reloj */
+    height: 320px; /* Alto del reloj */
+    display: flex; /* Usamos flexbox */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    border-radius: 50vh; /* Hace el reloj circular */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Fuente de estilo  */
+    font-size: 3rem; /* Tamaño de texto grande */
+    color: rgb(214, 71, 130); /* Color del texto rosa */
+}
